@@ -1,6 +1,6 @@
 install:
   pip install --upgrade pip &&\
-    pip install requirements.text
+    pip install -r requirements.text
 
 test:
   python -m pytest -vv tetst_hello.py
